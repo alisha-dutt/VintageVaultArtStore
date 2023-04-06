@@ -1,0 +1,114 @@
+html {
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 116px;
+    margin-top: -34px;
+}
+
+header div, .logo-container {
+    height: 115px;
+    flex-grow: 1;
+    background-color: #fff;
+}
+
+header div img ,.logo {
+    height: 100px !important;
+    max-width: 100%;
+    padding-left: 20px;
+}
+img .logo{
+    height: 120px !important;
+    border:2px solid black;
+}
+.woocommerce img, .woocommerce-page img {
+    max-width: 100%;
+}
+.menu {
+    display: flex;
+    margin-top: 52px;
+    list-style: none;
+    align-items: center;
+    color: black;
+}
+
+.menu li {
+    padding: 0px 10px;
+}
+
+.bg-custom, main {
+    background-color: #ffffffd9;
+}
+
+.form-bg {
+    background-color: #e9b0b6;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+}
+.woocommerce-notices-wrapper{
+    min-width: 800px;
+}
+.woocommerce-result-count{
+    background-color: #ffffffe9;
+    padding:10px 10px;
+}
+ul.products {
+    margin: 0 0 1em;
+    padding: 0;
+    list-style: none outside;
+    clear: both;
+    background-color: #ffffffe9;
+}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    float: left;
+    margin: 45px 3.8% 1.992em 0;
+    padding: 0;
+    position: relative;
+    width: 14.05%;
+    margin-left: 42px;
+}
+.price, .woocommerce div.product p.price{
+    background-color: #77a464;
+    color: black;
+    padding: 7px;
+    margin-top: 4px;
+}
+.woocommerce div.product{
+    background-color: #ffffffe9;
+}
+.woocommerce ul.products li.product .price {
+    color: black;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    font-size: .857em;
+}
+.woocommerce ul.products li.product .button {
+    display: inline-block;
+    margin-top: 1em;
+    font-size: 12px;
+}
+.woocommerce table.shop_table {
+    border: 1px solid rgba(0,0,0,.1);
+    background-color: #ffffffe9;
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+    border-collapse: separate;
+    border-radius: 5px;
+}
